@@ -8,14 +8,15 @@ package customer;
 */
 
 public class CustomerBean {
-	private int no;
+	private int cusSeq;
 	private String category,title,content;
 	
-	public int getNo() {
-		return no;
+	
+	public int getCusSeq() {
+		return cusSeq;
 	}
-	public void setNo(int no) {
-		this.no = no;
+	public void setCusSeq(int cusSeq) {
+		this.cusSeq = cusSeq;
 	}
 	public String getCategory() {
 		return category;

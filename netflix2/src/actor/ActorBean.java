@@ -7,7 +7,7 @@ package actor;
  * @story  :
 */
 
-public class Actor {
+public class ActorBean {
 	private int actorNo;
 	private String korName,engName,profileImg;
 	

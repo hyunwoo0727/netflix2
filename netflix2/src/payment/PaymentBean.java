@@ -2,7 +2,7 @@ package payment;
 
 public class PaymentBean {
 	private String cardNum,cardCompany,payDate,expireDate;
-	int price;
+	private int seq,price;
 	
 	public String getCardNum() {
 		return cardNum;
@@ -33,5 +33,11 @@ public class PaymentBean {
 	}
 	public void setPrice(int price) {
 		this.price = price;
+	}
+	public int getSeq() {
+		return seq;
+	}
+	public void setSeq(int seq) {
+		this.seq = seq;
 	}
 }
