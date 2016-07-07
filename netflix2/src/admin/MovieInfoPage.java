@@ -16,7 +16,6 @@ public class MovieInfoPage {
 	private MovieBean mvBean;
 	private List<ActorBean> actorList;
 	private int movieCode;
-	private String imgNames;
 	
 	public MovieBean getMvBean() {
 		return mvBean;
@@ -35,11 +34,5 @@ public class MovieInfoPage {
 	}
 	public void setMovieCode(int movieCode) {
 		this.movieCode = movieCode;
-	}
-	public String getImgNames() {
-		return imgNames;
-	}
-	public void setImgNames(String imgNames) {
-		this.imgNames = imgNames;
 	}
 }

@@ -11,5 +11,12 @@ import java.util.List;
 
 public class MyMoviePage {
 	private List<MovieBean> myMovieList;
-	
+
+	public List<MovieBean> getMyMovieList() {
+		return myMovieList;
+	}
+
+	public void setMyMovieList(List<MovieBean> myMovieList) {
+		this.myMovieList = myMovieList;
+	}
 }

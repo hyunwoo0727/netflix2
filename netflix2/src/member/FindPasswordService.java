@@ -7,6 +7,6 @@ package member;
  * @story  :
 */
 
-public interface PasswodPageService {
+public interface FindPasswordService {
 	public void findPassword(String word);
 }

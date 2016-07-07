@@ -17,5 +17,4 @@ public interface MovieInfoService {
 	public List<ActorBean> list();
 	public int findMovieCode(int serialNo);
 	public void update(MovieBean mvBean);
-	public void updateImg(int serialNo,String imgNames);
 }

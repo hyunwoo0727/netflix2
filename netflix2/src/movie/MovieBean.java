@@ -2,7 +2,7 @@ package movie;
 
 public class MovieBean {
 	private String mainTitle,subTitle,createYear,movieStory,runningTime,
-	  category,genre,producer,fileName,language,regDate;
+	  category,genre,producer,fileName,language,regDate,movieImg;
 	//grade point average
 	private int serialNo,ageGrade,season,episode,movieCode;
 	
@@ -101,5 +101,11 @@ public class MovieBean {
 	}
 	public void setMovieCode(int movieCode) {
 		this.movieCode = movieCode;
+	}
+	public String getMovieImg() {
+		return movieImg;
+	}
+	public void setMovieImg(String movieImg) {
+		this.movieImg = movieImg;
 	}
 }
